@@ -8,10 +8,10 @@
 
 ## 在 Codex 中试用
 
-仓库需要已有访问权限。下例使用已认证的 GitHub CLI 检出仓库，再把 [SKILL.md](./SKILL.md) 和 [Agent 元数据](./agents/openai.yaml) 放进 Codex 的技能目录；若目标已存在，先比较版本，避免覆盖。
+下例克隆本仓库，再把 [SKILL.md](./SKILL.md) 和 [Agent 元数据](./agents/openai.yaml) 放进 Codex 的技能目录；若目标已存在，先比较版本，避免覆盖。
 
 ```bash
-gh repo clone LikC1606/feishu-project-report-writing
+git clone https://github.com/LikC1606/feishu-project-report-writing.git
 cd feishu-project-report-writing
 skill_dir="${CODEX_HOME:-$HOME/.codex}/skills/feishu-project-report-writing"
 mkdir -p "$(dirname "$skill_dir")"

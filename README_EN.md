@@ -8,10 +8,10 @@ A Codex Skill for Chinese project briefs, research plans, and weekly reports gro
 
 ## Try it in Codex
 
-You need access to the private repository. The example uses an authenticated GitHub CLI to clone it and installs [SKILL.md](./SKILL.md) with its [agent metadata](./agents/openai.yaml). Compare with an existing installation before replacing it.
+The example clones this repository and installs [SKILL.md](./SKILL.md) with its [agent metadata](./agents/openai.yaml). Compare with an existing installation before replacing it.
 
 ```bash
-gh repo clone LikC1606/feishu-project-report-writing
+git clone https://github.com/LikC1606/feishu-project-report-writing.git
 cd feishu-project-report-writing
 skill_dir="${CODEX_HOME:-$HOME/.codex}/skills/feishu-project-report-writing"
 mkdir -p "$(dirname "$skill_dir")"
