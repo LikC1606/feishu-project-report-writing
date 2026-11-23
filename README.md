@@ -1,10 +1,16 @@
-<!-- README_SYNC: source=fddf931752256d3da7cc33399717aedafc146de6; updated=2026-11-18 -->
-
-简体中文 · [English](./README_EN.md)
+<!-- README_SYNC: source=fddf931752256d3da7cc33399717aedafc146de6; updated=2026-11-23 -->
+<p align="center">简体中文 · <a href="./README_EN.md" lang="en">English</a></p>
 
 # 飞书项目文档与周报写作
 
-用这个 Codex Skill，把仓库里实际完成的工作整理成中文项目介绍、研究计划或周报。没参与日常开发的同事也能看清做了什么、有哪些证据、接下来要做什么。
+用这个 Codex Skill，把仓库里实际完成的工作整理成证据可查的中文项目介绍、研究计划或工作周报，让未参与日常开发的同事也能迅速看清进展、依据和下一步安排。
+
+<a href="https://github.com/LikC1606/feishu-project-report-writing"><img alt="GitHub stars" src="https://img.shields.io/github/stars/LikC1606/feishu-project-report-writing"></a>
+<img alt="Codex Skill" src="https://img.shields.io/badge/skill-Codex-4c566a">
+<img alt="Feishu / Lark" src="https://img.shields.io/badge/target-Feishu_%2F_Lark-3370ff">
+<a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-2f855a"></a>
+
+欢迎[点 Star](https://github.com/LikC1606/feishu-project-report-writing) 收藏这套基于代码证据的飞书文档写作技能。
 
 ## 在 Codex 中试用
 
@@ -39,3 +45,7 @@ mkdir "$skill_dir" && cp -a SKILL.md agents "$skill_dir/"
 ## 更新飞书时
 
 授权更新后，先取最新正文和修订版本，在原文的目标段落做增量修改，保留导航、引用、附件与历史。写入结果不确定时先回读，实际核对正文、顺序和关系后才报告已更新。完整写作和交付约定在 [SKILL.md](./SKILL.md)。
+
+## 许可与反馈
+
+本项目采用 [MIT 许可证](./LICENSE)。欢迎[提交 Issue](https://github.com/LikC1606/feishu-project-report-writing/issues)反馈问题或建议，也可以[点 Star](https://github.com/LikC1606/feishu-project-report-writing)收藏。

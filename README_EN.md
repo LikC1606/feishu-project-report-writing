@@ -1,10 +1,16 @@
-<!-- README_SYNC: source=fddf931752256d3da7cc33399717aedafc146de6; updated=2026-11-18 -->
-
-[简体中文](./README.md) · English
+<!-- README_SYNC: source=fddf931752256d3da7cc33399717aedafc146de6; updated=2026-11-23 -->
+<p align="center"><a href="./README.md" lang="zh-CN">简体中文</a> · English</p>
 
 # Feishu Project Report Writing
 
-A Codex Skill for Chinese project briefs, research plans, and weekly reports grounded in the repository. It helps readers outside day-to-day development see what changed, what is supported by the evidence, and what comes next.
+A Codex Skill for drafting evidence-grounded Chinese project briefs, research plans, and weekly reports directly from a repository. It helps readers outside day-to-day development see what changed, what is supported by evidence, and what comes next.
+
+<a href="https://github.com/LikC1606/feishu-project-report-writing"><img alt="GitHub stars" src="https://img.shields.io/github/stars/LikC1606/feishu-project-report-writing"></a>
+<img alt="Codex Skill" src="https://img.shields.io/badge/skill-Codex-4c566a">
+<img alt="Feishu / Lark" src="https://img.shields.io/badge/target-Feishu_%2F_Lark-3370ff">
+<a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-2f855a"></a>
+
+[Star this repository](https://github.com/LikC1606/feishu-project-report-writing) to bookmark this evidence-grounded Feishu writing skill.
 
 ## Try it in Codex
 
@@ -39,3 +45,7 @@ Each document and module is capped at 200 text lines or visible blocks. A plan n
 ## Update Feishu when authorized
 
 Read the latest document and revision, then update only the intended passages while preserving navigation, references, attachments, and history. If a write result is uncertain, read it back first. Report an update once the revised content and structure have been checked. See [SKILL.md](./SKILL.md) for the full writing and delivery rules.
+
+## License and feedback
+
+Licensed under the [MIT License](./LICENSE). [Open an issue](https://github.com/LikC1606/feishu-project-report-writing/issues) for questions or reproducible issues, and [star the repository](https://github.com/LikC1606/feishu-project-report-writing) to keep it handy.
